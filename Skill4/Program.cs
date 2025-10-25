@@ -4,11 +4,10 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        var myapples = 5;
-        var hisapples = 6;
-        var hispeares = 5;
+        var A = "A";
+        var B = "B";
 
-        var result = (myapples != hispeares) & (myapples < hisapples);
+        var result = A != B;
 
         Console.WriteLine(result);
         Console.ReadKey();
