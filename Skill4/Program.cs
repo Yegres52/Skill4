@@ -32,7 +32,7 @@ class MainClass
 
             default:
                 Console.BackgroundColor = ConsoleColor.Yellow;
-                Console.ForegroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Red;
 
                 Console.WriteLine("Your color is Yellow!");
                 break;
