@@ -4,27 +4,21 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-
         var a = 6;
         var b = 7;
 
-        if (a == b)
+        if (a == b && b > 1)
         {
             Console.WriteLine("Условие истинно");
         }
+
+        else if (b > 10 || b == 7)
+        {
+            Console.WriteLine("Значение b = {0} больше 10 или равно 7", b);
+        }
         else
         {
-            Console.WriteLine("Условие ложно");
-
-            if (b < 10)
-            {
-                Console.WriteLine("Значение b = {0} меньше 10", b);
-            }
-            else
-            {
-                Console.WriteLine("Значение b = {0} больше 10", b);
-            }
+            Console.WriteLine("Значение b = {0}", b);
         }
-
     }
 }
