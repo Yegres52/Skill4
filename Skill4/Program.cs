@@ -4,14 +4,16 @@ class MainClass
 {
     public static void Main(string[] args)
     {
-        var A = 1;
-        var B = 2;
-        double X = 5;
-        double Y = 4;
 
-        var result = (A < B) | (X > Y);
+        var a = 5 + 6;
+        var b = 7 + 8;
 
-        Console.WriteLine(result);
+        var c = (b == a) & (b > a + 1);
+        var d = (b == a) && (b > a + 1);
+
+        Console.WriteLine(c);
+        Console.WriteLine(d);
         Console.ReadKey();
+
     }
 }
