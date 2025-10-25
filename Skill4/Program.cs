@@ -17,7 +17,13 @@ class MainClass
             Console.WriteLine("Условие ложно");
 
             if (b < 10)
-                Console.WriteLine("Значение b = {0}", b);
+            {
+                Console.WriteLine("Значение b = {0} меньше 10", b);
+            }
+            else
+            {
+                Console.WriteLine("Значение b = {0} больше 10", b);
+            }
         }
 
     }
