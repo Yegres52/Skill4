@@ -5,11 +5,17 @@ class MainClass
     public static void Main(string[] args)
     {
 
-        var inv = true;
-        var result = !inv;
+        var a = 6;
+        var b = 7;
 
-        Console.WriteLine(result);
-        Console.ReadKey();
+        if (a == b)
+        {
+            Console.WriteLine("Условие истинно");
+        }
+        else
+        {
+            Console.WriteLine("Условие ложно");
+        }
 
     }
 }
