@@ -15,6 +15,9 @@ class MainClass
         else
         {
             Console.WriteLine("Условие ложно");
+
+            if (b < 10)
+                Console.WriteLine("Значение b = {0}", b);
         }
 
     }
