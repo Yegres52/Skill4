@@ -4,16 +4,20 @@ class MainClass
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Введите своё имя");
 
-        //Размерность массива 
-        var arr = new int[] { 1, 2, 3, 4 };
-        var l = arr.Length;
+        var name = Console.ReadLine();
+        var eman = "";
 
-        //Разные виды инициализации массива
-        int[] arr1 = new int[4] { 1, 2, 3, 5 };
-        int[] arr2 = new int[] { 1, 2, 3, 5 };
-        int[] arr3 = new[] { 1, 2, 3, 5 };
-        int[] arr4 = { 1, 2, 3, 5 };
+        Console.WriteLine("Ваше имя по буквам: ");
 
+        foreach (var ch in name)
+        {
+            eman = ch + eman;
+        }
+
+        Console.WriteLine(eman);
+
+        Console.ReadKey();
     }
 }
